@@ -35,7 +35,7 @@ The Weather App is a Flutter application designed to provide users with up-to-da
 - The app is built with a modular code structure, separating UI, business logic, and data handling.
 - Easy to maintain and extend with new features.
 
-### Packages Used
+## 🗂 Packages Used
 - The Weather App leverages several Flutter packages to enhance functionality and streamline development:
 
 `provider`: A state management solution for managing application state.
