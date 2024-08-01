@@ -43,6 +43,8 @@ The Weather App is a Flutter application designed to provide users with up-to-da
 `http`: A package for making HTTP requests to fetch weather data from the API.
 
 `shared_preferences`: A package for storing and retrieving user preferences and favorite locations locally.
+
+## 📸Screenshot 
 <div> 
   <img src = "https://github.com/user-attachments/assets/5af51f6d-3a02-4ad8-b3b5-305aa4268530"  height=35% width=22%  />
    <img src = "https://github.com/user-attachments/assets/1dbf40b0-73cb-47bc-acd1-a68410ef86b4"  height=35% width=22%  />
