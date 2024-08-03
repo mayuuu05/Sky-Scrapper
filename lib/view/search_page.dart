@@ -62,7 +62,6 @@ class SearchPage extends StatelessWidget {
                                           Expanded(
                                             child: TextField(
                                               cursorColor: Colors.white,
-
                                               onSubmitted: (value) {
                                                 weatherproviderFalse.getCity(value);
                                               },
