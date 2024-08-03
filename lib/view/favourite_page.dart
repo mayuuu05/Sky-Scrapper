@@ -1,9 +1,7 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wether_app/view/search_page.dart';
-
 import '../modal/weatherModal.dart';
 import '../provider/weatherProvider.dart';
 
