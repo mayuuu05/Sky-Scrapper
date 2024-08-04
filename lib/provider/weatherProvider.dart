@@ -52,16 +52,13 @@ class Weatherprovider extends ChangeNotifier{
     Weather3.add(data);
     sharedPreferences.setStringList('weather', Weather);
   }
-
-
   Future<void> getFavourite()
   async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
     List<String> weather = sharedPreferences.getStringList('weather') ?? <String>[];
     notifyListeners();
   }
-
-  WeatherProvider()
+ WeatherProvider()
   {
     getFavourite();
   }
