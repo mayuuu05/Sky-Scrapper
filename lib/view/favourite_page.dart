@@ -39,9 +39,7 @@ class FavouritePage extends StatelessWidget {
                             color: Colors.black45.withOpacity(0.2),
                             child: SingleChildScrollView(
                               child: Column(
-                                children: [
-
-                                  ...List.generate(
+                                children: [   ...List.generate(
                                     weatherproviderTrue.Weather.length,
                                         (index) => Padding(
                                       padding: const EdgeInsets.all(18.0),
